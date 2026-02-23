@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+background-image: url(https://w3.pngaura.com/assets/images/posts/original/66239603864b5_nazim121_free_fall_wallpaper_8k_high_quality_--ar_74_--stylize__38279ec3-1fe7-462a-848c-b65693c8485f.png);
+background-size: cover;
+background-position: center;
+min-height: 100vh;
+}
+
+.navbar{
+width: 1200px;
+height: 75px;
+margin: auto;
+
+}
+
+.icon{
+    height: 70px;
+    float: left;
+width: 200px;
+}
+
+.logo{
+color: aquamarine;
+padding-left: 20px;
+float: left;
+padding-top: 10px;
+}
