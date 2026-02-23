@@ -57,10 +57,18 @@ ul li a:hover{
 }
 
 .search{
-    float: left;
+    margin-left: 270px;
 
+}
+
+.srch{
+    background-color: palevioletred;
+    border-radius: 0px;
+    padding: 10px;
     
 }
+
+
 
 
 
