@@ -25,7 +25,7 @@ width: 200px;
 }
 
 .logo{
-color: bisque;
+color: palevioletred;
 padding-left: 20px;
 float: left;
 padding-top: 10px;
@@ -36,6 +36,7 @@ padding-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Arial;
 }
 
 ul li{
@@ -47,5 +48,15 @@ margin-top: 27px;
 ul li a{
     text-decoration: none;
     color: black;
+    font-weight: bold;
+    /*transition: 0.4s ease-in-out;*/
 }
+
+ul li a:hover{
+    color: palevioletred;
+}
+
+
+
+
 
