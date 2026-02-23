@@ -33,4 +33,5 @@ padding-top: 10px;
 
 .menu{
     float: left;
+    display: flex;
 }
