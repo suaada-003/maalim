@@ -25,7 +25,7 @@ width: 200px;
 }
 
 .logo{
-color: aquamarine;
+color: bisque;
 padding-left: 20px;
 float: left;
 padding-top: 10px;
@@ -34,4 +34,18 @@ padding-top: 10px;
 .menu{
     float: left;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+ul li{
+margin-left: 62px;
+margin-top: 27px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+
