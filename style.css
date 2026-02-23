@@ -22,11 +22,12 @@ margin: auto;
     height: 70px;
     float: left;
 width: 200px;
+
 }
 
 .logo{
 color: bisque;
-padding-left: 20px;
+margin-left: 60px;
 float: left;
 padding-top: 10px;
 }
@@ -71,12 +72,27 @@ ul li a:hover{
 }
 
 .btn{
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 10px;
     margin-top: 20px;
     background-color: bisque;
 }
 
+
+.content{
+width: 1200px;
+/*margin: auto;
+height: auto;*/
+color: antiquewhite;
+position: relative;
+margin-left: 60px;
+}
+
+.par{
+    padding: 20px;
+    line-height: 1.5;
+    font-family: arial;
+}
 
 
 
