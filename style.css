@@ -112,7 +112,13 @@ margin-top: 10px;
     height: 30px;
     margin-bottom: 20px;
     border-radius: 10px;
+    cursor: pointer;
 }
+
+.content .cn a{
+    text-decoration: none;
+}
+
 
 
 
