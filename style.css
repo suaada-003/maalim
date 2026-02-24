@@ -55,7 +55,7 @@ ul li a{
 }
 
 ul li a:hover{
-    color: palevioletred;
+    color: gold;
 }
 
 .search{
@@ -93,11 +93,26 @@ margin-left: 60px;
 }
 
 .par{
-    padding: 20px;
-    line-height: 1.5;
+    padding: 30px;
+    line-height: 2.0;
     font-family: arial;
 }
 
+.content h1{
+padding-left: 20px;
+font-family: sans-serif;
+letter-spacing: 2px;
+margin-top: 10px;
+
+}
+
+.content .cn{
+    background-color: gold;
+    width: 100px;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
 
 
 
