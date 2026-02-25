@@ -139,7 +139,13 @@ margin-top: 10px;
     border-radius: 20px;
 }
 
-
+.form h2{
+color: gold;
+background-color: aliceblue;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+}
 
 
 
