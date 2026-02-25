@@ -155,7 +155,13 @@ background-color: aliceblue;
     border-right: none;
     border-left: none;
     width: 240px;
+    height: 35px;
+    border-bottom: 1px  solid gold;
+    
+}
 
+::placeholder{
+    color: aliceblue;
 }
 
 
