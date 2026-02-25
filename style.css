@@ -171,11 +171,14 @@ background-color: gold;
 margin-top: 20px;
 border-radius: 10px;
 cursor: pointer;
+transition: o.4s ease;
 }
 
 .btnn:hover{
     background-color: aliceblue;
 }
+
+
 
 
 
