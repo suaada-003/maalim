@@ -178,7 +178,10 @@ transition: o.4s ease;
     background-color: aliceblue;
 }
 
-
+.btnn a{
+text-decoration: none;
+font-weight: bold;
+}
 
 
 
