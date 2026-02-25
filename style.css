@@ -173,6 +173,10 @@ border-radius: 10px;
 cursor: pointer;
 }
 
+.btnn:hover{
+    background-color: aliceblue;
+}
+
 
 
 
