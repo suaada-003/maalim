@@ -164,6 +164,15 @@ background-color: aliceblue;
     color: aliceblue;
 }
 
+.btnn{
+width: 240px;
+height: 35px;
+background-color: gold;
+margin-top: 20px;
+border-radius: 10px;
+
+}
+
 
 
 
