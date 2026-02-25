@@ -182,6 +182,9 @@ transition: o.4s ease;
 text-decoration: none;
 font-weight: bold;
 }
+.form .link{
+    text-align: center;
+}
 
 
 
