@@ -145,6 +145,17 @@ background-color: aliceblue;
     text-align: center;
     border-radius: 10px;
     padding: 5px;
+    margin: 2px;
+}
+
+.form input{
+    background-color: transparent;
+    color: aliceblue;
+    margin-top: 20px;
+    border-right: none;
+    border-left: none;
+    width: 240px;
+
 }
 
 
