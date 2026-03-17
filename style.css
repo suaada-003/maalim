@@ -1,204 +1,256 @@
-*{
+/* Reset */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-.main{
+/* Main background */
+.main {
     width: 100%;
-background-image: url(https://img.freepik.com/free-vector/abstract-dark-blue-vector-futuristic-digital-grid-background_53876-110562.jpg);
-background-size: cover;
-background-position: center;
-min-height: 100vh;
+    background-image: url(https://img.freepik.com/free-vector/abstract-dark-blue-vector-futuristic-digital-grid-background_53876-110562.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
 }
 
-.navbar{
-width: 1200px;
-height: 75px;
-margin: auto;
-
-}
-
-.icon{
-    height: 70px;
-    float: left;
-width: 200px;
-margin-left: 10px;
-}
-
-.logo{
-color: gold;
-font-size: 40px;
-padding-left: 60px;
-float: left;
-padding-top: 10px;
-}
-
-.menu{
-    float: left;
+/* Navbar */
+.navbar {
     display: flex;
-    justify-content: center;
     align-items: center;
-    font-family: Arial;
+    justify-content: space-between; /* logo left, search right */
+    color: white;
+    padding: 10px 20px;
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    height: 75px;
 }
 
-ul li{
-margin-left: 62px;
-margin-top: 27px;
-
+.icon {
+    width: 200px;
 }
 
-ul li a{
+.logo {
+    color: gold;
+    font-size: 40px;
+    padding-left: 20px;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    align-items: center;
+}
+
+.menu li a {
     text-decoration: none;
     color: black;
     font-weight: bold;
-    /*transition: 0.4s ease-in-out;*/
+    font-size: 16px;
 }
 
-ul li a:hover{
+.menu li a:hover {
     color: gold;
 }
 
-.search{
-    margin-left: 270px;
-
+/* Search bar on the right */
+.search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
-.srch{
+.srch {
     background-color: transparent;
     color: aliceblue;
     border-radius: 10px;
-   padding: 10px;
-   margin-top: 20px;
-   margin-left: 50px;
-    
+    padding: 8px 12px;
+    border: 1px solid gold;
+    outline: none;
+    font-size: 16px;
 }
 
-.btn{
+.btn {
     border-radius: 10px;
-    width: 100px;
-    height: 40px;
-    padding: 10px;
-    margin-top: 20px;
+    padding: 8px 15px;
     background-color: gold;
+    border: none;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
 }
 
-
-.content{
-width: 1200px;
-/*margin: auto;
-height: auto;*/
-color: antiquewhite;
-position: relative;
-margin-left: 60px;
+/* Content */
+.content {
+    width: 1200px;
+    color: antiquewhite;
+    position: relative;
+    margin: 40px auto 0 auto;
 }
 
-.par{
-    padding: 30px;
-    line-height: 2.0;
-    font-family: arial;
+.content h1 {
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 20px; /* space between h1 and p */
 }
 
-.content h1{
-padding-left: 20px;
-font-family: sans-serif;
-letter-spacing: 2px;
-margin-top: 10px;
-
+.content .par {
+    padding: 0 20px;
+    line-height: 2;
 }
 
-.content .cn{
+.content .cn {
     background-color: gold;
     width: 100px;
     height: 30px;
     margin-bottom: 20px;
     border-radius: 10px;
     cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
 }
 
-.content .cn a{
+.content .cn a {
     text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
 }
 
-.cn :hover{
-    background-color: azure;
-}
-
-.content span{
+.content span {
     color: gold;
     font-size: 40px;
 }
 
-.form{
+/* Login Form */
+.form {
     position: absolute;
-    margin-left: 870px;
+    right: 50px;
     top: 20px;
-    height: 350px;
+    height: 390px;
     width: 250px;
     background-color: black;
     padding: 25px;
     border-radius: 20px;
 }
 
-.form h2{
-color: gold;
-background-color: aliceblue;
+.form h2 {
+    color: gold;
+    background-color: aliceblue;
     text-align: center;
     border-radius: 10px;
     padding: 5px;
-    margin: 2px;
+    margin-bottom: 15px;
 }
 
-.form input{
+.form input {
     background-color: transparent;
     color: aliceblue;
     margin-top: 20px;
-    border-right: none;
-    border-left: none;
-    width: 240px;
+    border: none;
+    border-bottom: 1px solid gold;
+    width: 100%;
     height: 35px;
-    border-bottom: 1px  solid gold;
-    
+    font-size: 16px;
+    outline: none;
 }
 
-::placeholder{
+::placeholder {
     color: aliceblue;
 }
 
-.btnn{
-width: 240px;
-height: 35px;
-background-color: gold;
-margin-top: 20px;
-border-radius: 10px;
-cursor: pointer;
-transition: o.4s ease;
+.btnn {
+    width: 100%;
+    height: 35px;
+    background-color: gold;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s ease;
+    font-weight: bold;
 }
 
-.btnn:hover{
+.btnn:hover {
     background-color: aliceblue;
 }
 
-.btnn a{
-text-decoration: none;
-font-weight: bold;
+.btnn a {
+    text-decoration: none;
+    color: black;
 }
-.form .link{
+
+.form .link {
     text-align: center;
     margin-top: 15px;
 }
 
-.form .link a{
+.form .link a {
     text-decoration: none;
     color: gold;
 }
-.liw{
+
+.liw {
     text-align: center;
     margin-top: 15px;
 }
 
+/* Icons */
+.icons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
 
+.icons a {
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
 
+.icons a:hover {
+    color: gold;
+}
 
+/* Responsive */
+@media (max-width: 1200px) {
+    .content {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 
-
-
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+    }
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    .search {
+        margin-top: 10px;
+        width: 100%;
+    }
+    .srch {
+        width: 100%;
+    }
+    .btn {
+        width: 100%;
+    }
+    .form {
+        position: static;
+        margin: 20px auto;
+        right: auto;
+        top: auto;
+    }
+}
